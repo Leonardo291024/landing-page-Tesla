@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+    position: relative;
+}
+
+.container-btn-menu-mobile button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+.container-btn-menu-mobile button:hover{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid transparent;
+    color: black;
+}
+
+.menu-mobile{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+}
+
+.menu-mobile div{
+    height: 80px;
+}
+
+.menu-mobile div p{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+}
+
+.menu-mobile div i{
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.container-nav li a{
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+    transition: background 0.4s;
+}
+
+.container-nav li a:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.container-nav .bi{
+    font-size: 1.2rem;
+}
+
+
+/*Seccion Model 3*/
+.container-model-3{
+    background-image: url(../images/Model-3-Mobile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-model-y{
+    background-image: url(../images/Model-Y-Mobile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-model-x{
+    background-image: url(../images/Model-X-Mobile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-model-s{
+    background-image: url(../images/Model-S-Mobile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-model-s .title, .seccion-model-s .price{
+    color: white;
+}
+
+.seccion-model-s .description{
+    color: rgb(197, 197, 197);
+}
+
+.seccion-powerwall{
+    background-image: url(../images/Mobile_SolarPanels.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-accesorios{
+    background-image: url(../images/Accessories-Mobile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.seccion-model-3{
+    height: 80vh;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+}
+
+.container-btn{
+    width: 100%;
+    max-width: 420px;
+}
+
+.container-btn button{
+    height: 45px;
+}
+
+.container-buttons .btn-ordenar{
+    width: 100%;
+    background-color: white;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    /*max-width: 420px;*/
+}
+
+.container-buttons .btn-prueba{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.5s;
+    /*max-width: 420px;*/
+}
+
+.container-buttons .btn-prueba:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+footer{
+    background-color: black;
+}
+
+footer div{
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer a{
+    text-decoration: 2px underline;
+    font-size: 1rem;
+    color: rgb(192, 192, 192);
+}
+
+footer nav{
+    margin-top: 50px;
+}
+
+footer nav a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+@media(min-width: 600px){
+    .container-model-3{
+        background-image: url(../images/Model-3-Desktop.avif);
+    }
+
+    .seccion-model-y{
+        background-image: url(../images/Model-Y-Desktop.avif);
+    }
+
+    .seccion-model-x{
+        background-image: url(../images/Model-X-Desktop.avif);
+    }
+
+    .seccion-model-s{
+        background-image: url(../images/Model-S-Desktop.avif);
+    }
+
+    .seccion-powerwall{
+        background-image: url(../images/Desktop_SolarPanels.avif);
+    }
+
+    .seccion-accesorios{
+        background-image: url(../images/Accessories-Desktop.avif);
+    }
+}
+
+
